@@ -5,22 +5,24 @@ layout: series
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 {% assign post_cat = site.collection_cats | where:"title", page.Category | first %}
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!-- <article class="post" itemscope itemtype="http://schema.org/BlogPosting">  -->
 
 
 
-    
-  <div class="table-of-contents-header">
+<div class="table-of-contents-plus-article">
+   <div class="table-of-contents-header">
         Table of Contents:
    </div>
-      <!-- Article content -->
+    
+   <!-- Article content -->
    <div class="article-body{% if page.Category != " Technology" %} serif{% endif %}" itemprop="articleBody">
        {{ content  | toc}}
    </div>
+    
+</div>
 
 
 
 
-
-</article>
+<!-- </article>  -->
 
