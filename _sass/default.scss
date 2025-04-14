@@ -3,5 +3,7 @@
 
 .default {
     display: grid;
+    grid-template-rows: 20px auto 150px;
+    height: 100%;
     background: lightpink;
 };

@@ -59,7 +59,8 @@ body {
 
 .body-content {
     display: grid;
-    margin: auto;
+    margin: 0 auto;
     max-width: $site-max-width;
+    height: 100%;
     background: purple;
 };
