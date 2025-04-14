@@ -1,15 +1,17 @@
 @import "color_palette";
 
 .site-header {
-    padding-bottom: 20px;
+    height: 20px;
     background: lightblue;
     display: block;
 };
 
 .header-buttons {
     //display: inline-block;
-    margin: auto;
+    margin: 0 auto;
     max-width: $site-max-width;
+    background: lightgreen;
+    height: 100%;
 };
 
 .about-link {
