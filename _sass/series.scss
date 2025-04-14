@@ -4,12 +4,12 @@
     width: 100%;
     margin: auto;
     padding: 20px;
-}
+};
 
 .series-inner {
     display: block;
     margin: auto;
-    width: 800px;
+    max-width: $site-max-width;
     background-color: $background-color-2;
     border-color: $border-color;
     border-width: 0px 2px 4px 2px;
@@ -27,9 +27,9 @@
 
 .series-post-bullet {
     font: bold;
-}
+};
 
 .series-header {
     color: #3D3E3D;
     
-}
+};

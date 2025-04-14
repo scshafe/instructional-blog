@@ -1,4 +1,4 @@
-
+@import "color_palette";
 
 .header {
     padding-bottom: 20px;
@@ -9,7 +9,7 @@
 .header-buttons {
     //display: inline-block;
     margin: auto;
-    max-width: 800px;
+    max-width: $site-max-width;
 };
 
 .about-link {

@@ -7,16 +7,28 @@
     //padding: 10px;
     height: stretch;
     min-height: 100%;
-    max-width: 800px;
+    max-width: $site-max-width;
+    width: stretch;
 };
 
 
+.article-body {
+    display: block;
+    max-width: $site-max-width;
+    height: 100%;
+};
 
 
 #toc {
     display: inline-block;
-    width: 10%;
-    //height: 100%;
+    width: 12%;
+    padding: 0;
+    border: solid 1px;
+    height: 100%;
+    background: lightblue;
+   // height: stretch;
+    position: sticky;
+    float: left;
 };
 
 
