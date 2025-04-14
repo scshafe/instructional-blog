@@ -1,14 +1,19 @@
 @import 'color_palette';
 
 
-.table-of-contents-plus-article {
-    display: block;
+.table-of-contents {
+    display: inline-block;
     margin: auto;
     //padding: 10px;
     height: stretch;
     min-height: 100%;
-    max-width: $site-max-width;
+    max-width: $toc-width;
     width: stretch;
+    max-width: 12%;
+    border: solid 1px;
+    height: 100%;
+    background: lightblue;
+
 };
 
 
@@ -23,11 +28,6 @@
     display: inline-block;
     width: 12%;
     padding: 0;
-    border: solid 1px;
-    height: 100%;
-    background: lightblue;
-   // height: stretch;
-    position: sticky;
     float: left;
 };
 

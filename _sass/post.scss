@@ -1,5 +1,9 @@
-.article-post {
-    display: inline-block;
-    width: 80%;
+.article-post-container {
+    display: flex;
+    width: 100%;
     float: right;
+};
+
+.article-post {
+    background: teal;   
 };
