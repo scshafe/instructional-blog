@@ -1,9 +1,9 @@
-
+@import "color_palette";
 
 
 .default {
     display: grid;
-    grid-template-rows: 20px auto 150px;
+    grid-template-rows: $header-height auto 150px;
     height: 100%;
     background: lightpink;
 };
