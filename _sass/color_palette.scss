@@ -6,18 +6,42 @@ $border-color: #A9B1B2;
 
 
 
-// site sizes
+// ------ COLORS ------
+
+// site:
+$site-button-color: green;
+$site-button-background: orange;
+$site-button-background-hover: yellow;
+$site-button-border: red;
+
+
+// header
+$header-background-extended: lightblue;
+$header-background: lightgreen;
+// toc
+
+// article
+
+// series
+
+// footer
+
+
+
+// ------ SIZES ------
+
+// site 
 $site-max-width: 1000px;
 
-// header sizes
+// header 
 $header-height: 30px;
 $header-button-height: 20px;
 
-//table of content sizes
+// toc
 $toc-width: 200px;
 
-//article sizes
+// article 
 
-// series sizes
+// series 
 
-// footer sizes
+// footer 
