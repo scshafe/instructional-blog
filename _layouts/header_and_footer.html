@@ -7,9 +7,21 @@ layout: default
             <a class="home-link header-button" href="{{ site.url }}">
                 <input type="button" value="home" />
             </a> 
-            <a class="about-link header-button" href="{{ site.baseurl }}/about">
+
+            <div class="dropdown">
+                <button class="dropdown-button header-button">
+                    Menu
+                </button>
+            <div class="dropdown-content">
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.url }}">Home</a>
+            </div>
+            </div>
+            <!-- <a class="about-link header-button" href="{{ site.baseurl }}/about">
                 <input type="button" value="about" />
             </a>
+            -->
+
     </div>
 </header>
 <div class="body-content">
