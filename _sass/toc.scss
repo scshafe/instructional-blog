@@ -29,6 +29,16 @@
     padding: 0;
     float: left;
     min-height: 100%;
+    text-decoration: none;
+
+    li {
+
+        list-style-type: none;
+
+        a {
+        text-decoration: none;
+        };
+    };
 };
 
 .post-and-series {

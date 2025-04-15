@@ -2,14 +2,15 @@
 .non-series-container {
     display: flex;
     height: 100%;
+    margin-left: 20px;
 };
 
 
 .series {
         display: inline-block;
     //width: 100%
-    width: 100%;
-    margin: auto;
+    width: 80%;
+    margin: 20px;
 //    padding: 20px;
 };
 
@@ -19,7 +20,7 @@
     max-width: $site-max-width;
     background-color: $series-background;
     border-color: $border-color;
-    border-width: 0px 2px 4px 2px;
+    border-width: 3px 4px 6px 4px;
     border-style: solid;
 
 };
