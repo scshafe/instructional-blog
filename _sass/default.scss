@@ -3,7 +3,7 @@
 
 .default {
     display: grid;
-    grid-template-rows: $header-height auto 150px;
+    grid-template-rows: $header-height auto $footer-height;
     height: 100%;
     background: $background-color-2;
 };

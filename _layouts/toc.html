@@ -1,10 +1,13 @@
 ---
-layout: series
+layout: header_and_footer
 ---
 <head>
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 {% assign post_cat = site.collection_cats | where:"title", page.Category | first %}
+
+
+
 
 <div class="table-of-contents">
    <div class="table-of-contents-header">
@@ -13,9 +16,12 @@ layout: series
    <div class="toc">
         {% toc %}
    </div>
-</div>
 
-{{ content }}
+    </div>
+
+<div class="post-and-series">
+        {{ content }}
+    </div>
 
 
 

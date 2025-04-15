@@ -9,11 +9,10 @@
     min-height: 100%;
     max-width: $toc-width;
     width: stretch;
-    max-width: 12%;
     border: solid 1px;
     height: 100%;
     background: $toc-background;
-
+    border-radius: 5px;
 };
 
 
@@ -26,9 +25,12 @@
 
 #toc {
     display: inline-block;
-    width: 12%;
+    width: $toc-width;
     padding: 0;
     float: left;
+    min-height: 100%;
 };
 
-
+.post-and-series {
+    display: grid;
+};  
