@@ -25,7 +25,7 @@
             padding: 1px;
             background: $site-button-background;
             
-            input {
+            * {
                 border: 0;
                 background: none;
                 color: $site-button-color;
@@ -39,12 +39,12 @@
 
 
         .dropdown {
-            width: 200px;
+            width: $header-menu-width;
             margin-left: 80px;
-            padding-left: 80px;
+            padding-left: 0;
             float: right;
             overflow: hidden;
-            text-align: right;
+            text-align: center;
         }
         
         .dropdown .dropbtn {
@@ -52,26 +52,21 @@
             border: none;
             outline: none;
             padding: 14px 16px;
-            background-color: inherit;
-            font-family: inherit; /* Important for vertical align on mobile phones */
             margin: 0; /* Important for vertical align on mobile phones */
         };
 
 
-        .navbar a:hover, .dropdown:hover .dropbtn {
-            background-color: red;
-        }
           
           /* Dropdown content (hidden by default) */
           .dropdown-content {
             display: none;
             position: absolute;
             background-color: $site-button-background;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            width: 200px;
+            box-shadow: $site-box-shadow;
+            width: $header-menu-width;
             z-index: 1;
             margin: 0;
+            text-align: center;
             border-radius: 4px;
           }
           
@@ -82,7 +77,7 @@
             //padding: 12px 16px;
             text-decoration: none;
             display: block;
-            text-align: right;
+            text-align: center;
           }
           
           /* Add a grey background color to dropdown links on hover */
@@ -94,16 +89,6 @@
           .dropdown:hover .dropdown-content {
             display: grid;
           }
-        
-        .about-link {
-            float: right;
-            display: inline-block;
-        };
-        
-        .about-link {
-            float: right;
-            display: inline-block;
-        };
     };
 };
 
@@ -113,7 +98,7 @@
     margin: 0 auto;
     max-width: $site-max-width;
     height: 100%;
-    background: purple;
+    background: $site-background;
 };
 
 .site-footer {
@@ -121,7 +106,7 @@
     bottom: 0;
 //    position: relative;
     width: 100%;
-    background: green;
+    background: $footer-background;
     //margin-top: -50px;
     margin-left: 0px;
     margin-right: 0;
