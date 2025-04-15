@@ -1,24 +1,36 @@
-
-
-
+// for main colors of body
+$color: black;
+$background-color: lightgrey;
 $background-color-2: #B8C2CC;
+
+// for buttons and other specific items
+$color-1: darkblue;
+$color-trim-1: #66ff66;
+$color-border-1: blue;
+$color-off-1: #00b300;  // a lighter green
+
+// for accents of toc, header, footer
+$color-2: darkgreen;
+$color-trim-2: lightgreen;
 $border-color: #A9B1B2;
+
+
 
 
 
 // ------ COLORS ------
 
 // site:
-$site-background: purple; // has little effect
+$site-background: $background-color; // has little effect
 $site-background-sides: lightpink;
 
 
-$site-button-color: green;
-$site-button-background: orange;
-$site-button-background-hover: yellow;
-$site-button-border: red;
+$site-button-color: $color-1;
+$site-button-background: $color-trim-1;
+$site-button-background-hover: $color-off-1;
+$site-button-border: $color-border-1;
 
-$site-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) 
+$site-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 // header
 $header-background-extended: lightblue;
@@ -26,11 +38,11 @@ $header-background: lightgreen;
 // toc
 $toc-background: lightblue;
 // article
-$article-background: teal;
+$article-background: $background-color;
 // series
 $series-background: $background-color-2;
 // footer
-$footer-background: green;
+$footer-background: $color-trim-2;
 
 
 // ------ SIZES ------
