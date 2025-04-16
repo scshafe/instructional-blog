@@ -11,6 +11,7 @@ $color-off-1: #00b300;  // a lighter green
 
 // for accents of toc, header, footer
 $color-2: darkgreen;
+//$color-background-2: 
 $color-trim-2: lightgreen;
 $border-color: #A9B1B2;
 
@@ -36,9 +37,10 @@ $site-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 $header-background-extended: lightblue;
 $header-background: lightgreen;
 // toc
-$toc-background: lightblue;
+$toc-background: mintcream;
 // article
 $article-background: $background-color;
+$article-quote-background: mintcream;
 // series
 $series-background: $background-color-2;
 // footer
