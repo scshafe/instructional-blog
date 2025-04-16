@@ -5,14 +5,18 @@
     display: inline-block;
     margin: auto;
     //padding: 10px;
-    height: stretch;
+    height: 100vh;
     min-height: 100%;
     max-width: $toc-width;
     width: stretch;
     border: solid 1px;
     height: 100%;
+    margin: 0 $footer-height 0 0;
     background: $toc-background;
     border-radius: 5px;
+    overflow: scroll;
+    position: fixed;
+    top: $header-height;
 };
 
 .table-of-contents-header {
@@ -39,7 +43,7 @@
     margin: 5%;   
 
     li {
-
+        margin: 10px 0;
         list-style-type: none;
 
         a {

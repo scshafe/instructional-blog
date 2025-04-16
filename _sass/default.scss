@@ -5,5 +5,10 @@
     display: grid;
     grid-template-rows: $header-height auto $footer-height;
     height: 100%;
-    background: $background-color-2;
+    //background: $background-color-2;
+};
+
+body {
+    height: 100%;
+    background: $background-color;
 };

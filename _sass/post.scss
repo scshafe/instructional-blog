@@ -7,3 +7,9 @@
 .article-post {
     background: $article-background;   
 };
+
+.post-and-series {
+    margin: $header-height 0 0 $toc-width;
+    height: 100%;
+    width: 100%;
+};
