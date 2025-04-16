@@ -20,8 +20,14 @@
     };
 };
 
-.post-and-series {
-    margin: $header-height 0 0 $toc-width;
+.post-and-series-and-footer {
+    display: grid;
+    grid-template-rows: auto  $footer-height;
+    align-content: space-between;
+    align-items: start;
+    margin: $header-height 0 $footer-height $toc-width;
     height: 100%;
     width: 100%;
+    overflow: scroll;
+    position: relative;
 };
