@@ -1,4 +1,4 @@
-
+@import "color_palette";
 
 html {
     height: 100%;
@@ -21,4 +21,9 @@ html {
 //};
 
 
-
+.site-button {
+    color: $site-button-color;
+    background: $site-button-background;
+    border: 1px solid $site-button-border;
+    cursor: pointer; /* Add a mouse pointer on hover */
+};

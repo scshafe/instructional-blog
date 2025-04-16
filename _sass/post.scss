@@ -6,6 +6,18 @@
 
 .article-post {
     background: $article-background;   
+
+    blockquote {
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 3px 10px;
+        margin: 12px 3px;
+        background-color: $article-quote-background;
+        p {
+            background: $article-quote-background;
+        };
+        
+    };
 };
 
 .post-and-series {
