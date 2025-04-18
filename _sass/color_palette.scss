@@ -36,6 +36,8 @@ $site-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 // header
 $header-background-extended: lightblue;
 $header-background: lightgreen;
+
+
 // toc
 $toc-background: mintcream;
 // article
@@ -52,14 +54,16 @@ $footer-background: $color-trim-2;
 // site 
 $site-max-width: 1200px;
 
+// toc
+$toc-width: 200px;
+
 // header 
 $header-height: 30px;
 $header-button-height: 20px;
 $header-menu-width: 150px;
+$home-button-width: 100px;
+$home-button-margin: ($toc-width - $home-button-width) / 2;
 
-
-// toc
-$toc-width: 200px;
 
 // article 
 

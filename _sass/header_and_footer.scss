@@ -8,6 +8,25 @@
     top: 0;
     width: 100%;
     z-index: 100;
+
+    .home-button-div {
+        display: grid;
+        width: $toc-width;
+        
+        #home-button {
+            padding: 0;
+            border: 0;
+        };
+
+        .home-link {
+            display: inline-block;
+            align: center;
+            text-align: center;
+            margin: 0;
+            width: $toc-width;
+            height: $header-height;
+        };
+    };
     
     .header-buttons {
         display: flex;
@@ -25,8 +44,8 @@
         .header-button {
             border: 2px solid $site-button-border;
             border-radius: 3px;
-            margin: 2px;
-            padding: 1px;
+            //margin: 2px;
+            padding: 2px;
             background: $site-button-background;
             
             * {
