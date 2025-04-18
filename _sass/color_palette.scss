@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 // for main colors of body
 $color: black;
 $background-color: lightgrey;
@@ -27,7 +29,7 @@ $site-background-sides: lightpink;
 
 
 $site-button-color: $color-1;
-$site-button-background: $color-trim-1;
+$site-button-background: green;
 $site-button-background-hover: $color-off-1;
 $site-button-border: $color-border-1;
 
@@ -62,7 +64,7 @@ $header-height: 30px;
 $header-button-height: 20px;
 $header-menu-width: 150px;
 $home-button-width: 100px;
-$home-button-margin: ($toc-width - $home-button-width) / 2;
+$home-button-margin: math.div($toc-width - $home-button-width, 2);
 
 
 // article 
