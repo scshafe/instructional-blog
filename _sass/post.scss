@@ -25,7 +25,7 @@
     grid-template-rows: auto  $footer-height;
     align-content: space-between;
     align-items: start;
-    margin: $header-height 0 $footer-height $toc-width;
+    margin: 0 0 $footer-height $toc-width;
     height: 100%;
     width: 100%;
     overflow: scroll;
