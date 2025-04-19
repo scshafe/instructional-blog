@@ -2,7 +2,7 @@
 
 // for main colors of body
 $color: black;
-$background-color: lightgrey;
+$background-color: white;
 $background-color-2: #B8C2CC;
 
 // for buttons and other specific items
@@ -29,7 +29,7 @@ $site-background-sides: lightpink;
 
 
 $site-button-color: $color-1;
-$site-button-background: green;
+$site-button-background: lightgrey;
 $site-button-background-hover: $color-off-1;
 $site-button-border: $color-border-1;
 
@@ -37,18 +37,18 @@ $site-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 // header
 $header-background-extended: lightblue;
-$header-background: lightgreen;
+$header-background: mintcream;
 
 
 // toc
-$toc-background: mintcream;
+$toc-background: $background-color;
 // article
 $article-background: $background-color;
 $article-quote-background: mintcream;
 // series
 $series-background: $background-color-2;
 // footer
-$footer-background: $color-trim-2;
+$footer-background: $background-color;
 
 
 // ------ SIZES ------

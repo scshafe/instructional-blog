@@ -1,28 +1,22 @@
+@import "color_palette";
 
-.non-series-container {
-    //align-self: stretch;
-    display: flex;
-    height: 100%;
+.series-instructional-blog {
     margin-left: 20px;
 };
 
 
-.series {
-        display: inline-block;
-    //width: 100%
-    width: 80%;
-    margin: 20px;
-//    padding: 20px;
-};
 
-.series-inner {
+.series {
     display: block;
     margin: auto;
     max-width: $site-max-width;
     background-color: $series-background;
+    margin: 40px;
+    padding: 15px;
     border-color: $border-color;
     border-width: 3px 4px 6px 4px;
     border-style: solid;
+    border-radius: 20px;
 
 };
 

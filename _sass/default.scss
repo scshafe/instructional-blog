@@ -2,8 +2,8 @@
 
 
 .default {
-    display: grid;
-    grid-template-rows: $header-height auto $footer-height;
+    display: flex;
+    //grid-template-rows: $header-height auto $footer-height;
     top: 0;
     bottom: 0;
     left: 0;

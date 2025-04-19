@@ -1,12 +1,12 @@
 ---
 ---
-@import "site_wide_defaults";
-@import "toc";
-@import "return_to_top";
-@import "header_and_footer";
-@import "series";
-@import "post";
-@import "default";
-@import "home";
+@use "site_wide_defaults";
+@use "return_to_top";
+@use "series";
+@use "post";
+@use "default";
+@use "home";
+@use "navbar";
+@use "footer";
 
 

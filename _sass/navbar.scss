@@ -1,0 +1,50 @@
+@import "color_palette";
+
+
+.navbar {
+    width: $toc-width;
+    border-right: 1px solid;
+    
+    .dropdown-menu {
+        width: $toc-width;
+
+        .dropdown-button {
+            width: $toc-width;
+            border: 0;
+        };
+    
+        .dropdown-content {
+            display: grid;
+            position: absolute;
+            z-index: 100;
+            background: blue;
+            a {
+                display: block;
+            };
+        };
+
+        
+    };
+
+    .dropdown-button:hover .dropdown-content {
+        display: grid;
+    };
+
+   .navigation {
+       
+        overflow: scroll;
+    }; 
+
+    
+};
+
+
+.dropdown-content {
+            display: grid;
+            position: absolute;
+            z-index: 100;
+
+    a {
+        z-index: 120;
+    };
+};

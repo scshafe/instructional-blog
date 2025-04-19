@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+{% assign post_cat = site.collection_cats | where:"title", page.Category | first %}
+<div class="navbar">
+    <div class="dropdown-menu">
+        <button class="dropdown-button">
+            <img src="/assets/images/Hamburger_icon.svg"  />
+        </button>
+        <div class="dropdown-content">
+            <a href="{{ site.url }}">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="table-of-contents">
+            <div class="table-of-contents-header">
+                Table of Contents:
+            </div>
+            <div class="toc">
+                {% toc %} 
+            </div>
+        </div> <!-- table-of-contents -->
+    </div> <!-- navigation -->
+</div> <!-- navbar -->
+
+{{ content }}
+            
+

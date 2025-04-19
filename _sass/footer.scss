@@ -1,0 +1,32 @@
+@import "color_palette";
+
+
+
+.footer-series-instructional-blog {
+    //margin: 0 0 0 $toc-width;
+    padding: 0;
+    overflow: scroll;
+};
+
+.footer-container {
+    width: 100%;
+    border-top: 1px solid;
+
+    .footer {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        background: $site-background;
+
+        button {
+            background: $site-background;
+            border: 1px solid;
+            border-radius: 0;
+            height: 50px;
+            width: 100px;
+            
+        };
+    };
+};
+
+
