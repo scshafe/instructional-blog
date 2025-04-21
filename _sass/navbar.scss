@@ -14,19 +14,25 @@
         };
     
         .dropdown-content {
-            display: grid;
+            display: none;
             position: absolute;
             z-index: 100;
-            background: blue;
+            background: lightblue;
             a {
+                width: $toc-width;
                 display: block;
+                text-align: center;
+            };
+
+            a:hover {
+                background: grey;
             };
         };
 
         
     };
 
-    .dropdown-button:hover .dropdown-content {
+    .dropdown-menu:hover .dropdown-content {
         display: grid;
     };
 
@@ -39,12 +45,4 @@
 };
 
 
-.dropdown-content {
-            display: grid;
-            position: absolute;
-            z-index: 100;
 
-    a {
-        z-index: 120;
-    };
-};
