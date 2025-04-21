@@ -1,12 +1,14 @@
 ---
 layout: navbar
+custom_js:
+- return_to_top
 ---
 
-<div class="footer-series-instructional-blog">
+<div id="footer-series-instructional-blog" class="footer-series-instructional-blog">
     {{ content }}
     <footer class="footer-container">
         <div class="footer">
-            <button onclick="topFunction()" id="footer-return-to-top" class="footer-button" title="Go to top">
+            <button onclick="return_to_top()" id="footer-return-to-top" class="footer-button" title="Go to top">
                 Return to Top
             </button>
 
