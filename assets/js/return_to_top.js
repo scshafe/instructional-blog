@@ -1,6 +1,6 @@
 // Get the button:
 document.addEventListener('DOMContentLoaded', function() {
-  let mybutton = document.getElementById("myBtn");
+  let mybutton = document.getElementById("footer-return-to-top");
 //});
 
 

@@ -18,6 +18,14 @@
         margin: 0;
         background: $site-background;
 
+        .footer-button {
+            margin: auto;
+        };
+
+        .site-description {
+            margin: auto;
+        };
+
         button {
             background: $site-background;
             border: 1px solid;
