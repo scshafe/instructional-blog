@@ -4,6 +4,7 @@
 .navbar {
     width: $toc-width;
     border-right: 1px solid;
+    height: 100%;
     
     .dropdown-menu {
         width: $toc-width;
@@ -37,7 +38,7 @@
     };
 
    .navigation {
-       
+        height: 100%;
         overflow: scroll;
     }; 
 
