@@ -12,6 +12,7 @@ layout: default
         </div>
     </div>
     <div class="navigation">
+        {% if page.toc %}
         <div class="table-of-contents">
             <div class="table-of-contents-header">
                 Table of Contents:
@@ -20,6 +21,7 @@ layout: default
                 {% toc %} 
             </div>
         </div> <!-- table-of-contents -->
+        {% endif %}
     </div> <!-- navigation -->
 </div> <!-- navbar -->
 

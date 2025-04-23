@@ -40,6 +40,24 @@
    .navigation {
         height: 100%;
         overflow: scroll;
+
+        .table-of-contents {
+      
+            .table-of-contents-header {
+                width: 140px;
+                text-align: center;
+                margin: 20px auto;
+                padding-bottom: 5px;
+                border-bottom: 1px solid;
+            };
+      
+            .toc {
+                ul {
+                    list-style-type: none;
+                    padding: 10px;
+                };
+            };
+        };
     }; 
 
     
