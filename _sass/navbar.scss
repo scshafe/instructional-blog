@@ -55,6 +55,14 @@
                 ul {
                     list-style-type: none;
                     padding: 10px;
+
+                    .toc-h1 {
+                        list-style-type: none;
+                    };
+
+                    .foldable-list-hidden {
+                        display: none;
+                    }
                 };
             };
         };
