@@ -60,9 +60,13 @@
                         list-style-type: none;
                     };
 
+                    .foldable-dropdown-hidden {
+                        transform: rotate(-90deg);
+                    };
+
                     .foldable-list-hidden {
                         display: none;
-                    }
+                    };
                 };
             };
         };

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         foldable_toggle_div.classList.add('foldable-toggle');
         foldable_toggle_div.style.display = "inline-block";
         foldable_toggle_div.style.marginLeft = "3px";
-        
+        //foldable_toggle_div.style.transform = "rotate(-90deg)";       
 
         let foldable_list = h1_navbar_headers[i].children;
         if (foldable_list.length > 1) {
@@ -47,17 +47,27 @@ document.addEventListener('DOMContentLoaded', function() {
             for (child = 0; child < foldable_list.length; child++) {
                 console.log(foldable_list[child]);
                 // ignore the anchor of the section itself
-                if (foldable_list[child].localName != "ul") {
+                if (foldable_list[child].localName === "a") {
                     continue;
                 }
-
-                // toggle the class name for styling it as hidden
-                if (foldable_list[child].classList.contains("foldable-list-hidden")) {
-                    foldable_list[child].classList.remove("foldable-list-hidden");
+                else if (foldable_list[child].localName === "div") {
+                    if (foldable_list[child].classList.contains("foldable-dropdown-hidden")) {
+                        foldable_list[child].classList.remove("foldable-dropdown-hidden");
+                    }
+                    else {
+                        foldable_list[child].classList.add("foldable-dropdown-hidden");
+                    }
                 }
-                else {
-                    foldable_list[child].classList.add("foldable-list-hidden");
-                }                
+                else if (foldable_list[child].localName === "ul") {
+
+                    // toggle the class name for styling it as hidden
+                    if (foldable_list[child].classList.contains("foldable-list-hidden")) {
+                        foldable_list[child].classList.remove("foldable-list-hidden");
+                    }
+                    else {
+                        foldable_list[child].classList.add("foldable-list-hidden");
+                    }                
+                }
 
             }
     
